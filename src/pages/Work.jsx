@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import projectImage1 from '../assets/P1.png';
+import projectImage2 from '../assets/p2.png';
 
 const WorkContainer = styled.div`
   min-height: 100vh;
@@ -222,9 +223,9 @@ const Work = () => {
       title: 'AI Mental-Health Companion',
       description: 'A web application that uses AI to provide mental health support and guidance.',
       techStack: 'Node.js, Express, React',
-      image: '/projects/project2.png',
+      image: projectImage2,
       demoLink: '#',
-      githubLink: '#'
+      githubLink: 'https://ai-mental-health-companion.vercel.app/'
     },
     // Add more projects as needed
   ];
